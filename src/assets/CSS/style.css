@@ -1,0 +1,65 @@
+html{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 70px;
+    
+}
+
+.mainbox{
+    display: inline-flex;
+    background: rgba(0,0,255,70%);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.squ{
+    margin: 10px;
+    border-radius: 10px;
+    min-height: 300px ;      
+}
+.msgClass{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:20px;
+    color: grey;
+    font-family: 'Lucida Sans';
+    font-size: 10px;
+}
+.priceClass{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+}
+ul{
+    list-style: none;
+}
+ul li {
+    margin-bottom:  10px;
+}
+.listOrder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top:30px;
+    left: -15px;
+    bottom: 30px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.cardsDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top:25px;
+    
+    .btn{
+        width: 200px;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+}
